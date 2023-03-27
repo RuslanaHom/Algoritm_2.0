@@ -1,0 +1,5 @@
+Capitals = dict(Россия='Москва', Германия='Берлин', Франция='Париж', Италия='Рим')
+print(Capitals)
+Country = input('Введите страну: ')
+print(Capitals.get(Country))
+print(sorted(Capitals))
